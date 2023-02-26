@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Logo from '../assets/MALOGO_1.png'
+import Logo from '../assets/MALOGO1.png'
 import CV from '../assets/Abdulla_Resume.pdf'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
@@ -18,13 +18,13 @@ const Navbar = () => {
 
       {/* Logo Image */}
       <div>
-         <img src={Logo} alt='Logo' style={{ width: '100px'}}/>
+         <img src={Logo} alt='Logo' style={{ width: '80px'}}/>
       </div>
 
       {/* Menu */}
          <ul className='hidden md:flex'>
             <li>
-              <Link to="home" smooth={true} duration={500}>
+              <Link to="home" offset={-200} smooth={true} duration={500}>
                  Home
               </Link>
             </li>
@@ -92,13 +92,13 @@ const Navbar = () => {
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
          <ul>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500'>
-                <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/mohamed-abdulla-4126841b8">
+                <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/mohamed-abdulla-4126841b8" target="_blank" rel="noreferrer">
                     Linkedin<FaLinkedin size={30}/>
                 </a>
             </li>
 
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-                <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/AbdullaMIM">
+                <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/AbdullaMIM" target="_blank" rel="noreferrer">
                     Github<FaGithub size={30}/>
                 </a>
             </li>
