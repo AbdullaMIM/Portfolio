@@ -30,10 +30,10 @@ const Projects = () => {
                         Travel Application
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="https://tourlanka.netlify.app" target="_blank">
+                        <a href="https://tourlanka.netlify.app" target="_blank" rel="noreferrer">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                         </a>
-                        <a href="https://github.com/AbdullaMIM/Travel-App" target="_blank">
+                        <a href="https://github.com/AbdullaMIM/Travel-App" target="_blank" rel="noreferrer">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                         </a>
                     </div>
@@ -47,10 +47,10 @@ const Projects = () => {
                         Task Management System 
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="/" target="_blank">
+                        <a href="/" target="_blank" rel="noreferrer">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                         </a>
-                        <a href="/" target="_blank">
+                        <a href="/" target="_blank" rel="noreferrer">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                         </a>
                     </div>
@@ -64,10 +64,10 @@ const Projects = () => {
                         Inventory Management System
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="/" target="_blank">
+                        <a href="/" target="_blank" rel="noreferrer">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                         </a>
-                        <a href="https://github.com/AbdullaMIM/Inventory-Mangement-System" target="_blank">
+                        <a href="https://github.com/AbdullaMIM/Inventory-Mangement-System" target="_blank" rel="noreferrer">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                         </a>
                     </div>
@@ -81,10 +81,10 @@ const Projects = () => {
                         Frontend Design of Software Company
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="https://powersoftplc.netlify.app/" target="_blank">
+                        <a href="https://powersoftplc.netlify.app/" target="_blank" rel="noreferrer">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                         </a>
-                        <a href="https://github.com/AbdullaMIM/React-Tailwind" target="_blank">
+                        <a href="https://github.com/AbdullaMIM/React-Tailwind" target="_blank" rel="noreferrer">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                         </a>
                     </div>
@@ -98,10 +98,10 @@ const Projects = () => {
                         Power Mangement Sytem - ElectroGrid
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="/" target="_blank">
+                        <a href="/" target="_blank" rel="noreferrer">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                         </a>
-                        <a href="/" target="_blank">
+                        <a href="/" target="_blank" rel="noreferrer">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                         </a>
                     </div>
@@ -115,7 +115,7 @@ const Projects = () => {
                         Ecommerce Application - UI Design
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="https://www.figma.com/file/fhBw97kNDJLHvAHOAakMvV/HCI-2022?node-id=409%3A7595&t=6EULlkJaxQfQ20mk-1" target="_blank">
+                        <a href="https://www.figma.com/file/fhBw97kNDJLHvAHOAakMvV/HCI-2022?node-id=409%3A7595&t=6EULlkJaxQfQ20mk-1" target="_blank" rel="noreferrer">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Design</button>
                         </a>
                     </div>
